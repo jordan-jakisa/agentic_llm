@@ -2,3 +2,4 @@ venv/
 constants.py
 .env
 __pycache__/
+.idea/
