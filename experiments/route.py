@@ -43,7 +43,7 @@ if prompt := st.chat_input("Ask a question?"):
             messages=api_messages
         )
 
-        with st.chat_message("assistant"):
+        with st.chat_message("assistant"):++
             st.markdown(response.choices[0].message.content)
             st.caption(f"Model: {response.model}")
 
